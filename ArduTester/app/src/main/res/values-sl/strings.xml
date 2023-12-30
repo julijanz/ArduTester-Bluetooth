@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ArduTester</string>
+
+    <string name="bluetooth_not_enabled">Bluetooth ni omogočen</string>
+    <string name="bluetooth_connecting">Povezovanje ...</string>
+    <string name="bluetooth_connected">Povezan</string>
+    <string name="bluetooth_not_connected">Nepovezan</string>
+    <string name="bluetooth_select_device">Izberite napravo Bluetooth</string>
+    <string name="bluetooth_missing">Bluetooth na tej napravi ni omogočen, zato s programom ni mogoče delati.</string>
+    <string name="bluetooth_warning">Opozorilo</string>
+
+    <string name="btn_close">Zapri</string>
+    <string name="btn_connect">Poveži</string>
+    <string name="btn_info">Informacija</string>
+    <string name="btn_disconnect">Prekini povezavo</string>
+
+    <string name="msg_title_alert">Opozorilo</string>
+    <string name="msg_title_error">Napaka</string>
+    <string name="msg_title_information">Informacije</string>
+    <string name="btn_ok">V redu</string>
+
+    <string name="str_bluetooth_info">Bluetooth modul HC-05 (ali HC-06) mora biti seznanjen s to napravo (telefon, tablica...) v nastavitvah te naprave.\n\nČe je na tej napravi omogočen bluetooth, se program samodejno poveže z nazadnje povezanim bluetooth modulom HC-05.\n\nHC-05 lahko povežete ročno s klikom na</string>
+
+    <string name="str_error">NAPAKA</string>
+    <string name="str_diode">DIODA</string>
+    <string name="str_inductor">INDUKTOR</string>
+    <string name="str_potentiometer">POTENCIOMETER</string>
+    <string name="str_resistor">UPOR</string>
+    <string name="str_transisotr">TRANZISTOR</string>
+    <string name="str_thyristor">TIRISTOR</string>
+    <string name="str_capacitor">KONDENZATOR</string>
+    <string name="str_triac">TRIAC</string>
+    <string name="str_n_e_mosfet">N-E-MOSFET</string>
+    <string name="str_p_e_mosfet">P-E-MOSFET</string>
+    <string name="str_n_d_mosfet">N-D-MOSFET</string>
+    <string name="str_n_jfet">N-JFET</string>
+    <string name="str_p_jfet">P-JFET</string>
+
+    <string name="str_received_data">Prejeti podatki...</string>
+    <string name="str_bluetooth_device">Bluetooth naprava</string>
+
+</resources>
