@@ -28,11 +28,15 @@ There are several different examples of ArduTester code posted on the internet. 
 
 9. That's it. **Enjoy**.
 
+**Some Android ArduTester screenshots**
+
 ![image](https://github.com/julijanz/ArduTester-Bluetooth/assets/6597160/edab195b-3023-4262-af17-3f18f76e8d73) ![image](https://github.com/julijanz/ArduTester-Bluetooth/assets/6597160/e08ef204-2a46-49b2-a2e7-228f42db15ce) ![image](https://github.com/julijanz/ArduTester-Bluetooth/assets/6597160/20c00864-d03d-492d-b8ba-7c2785cb8307)
 
 ![image](https://github.com/julijanz/ArduTester-Bluetooth/assets/6597160/0df5a1f4-7a0e-4944-a5da-55d3d7536e6c) ![image](https://github.com/julijanz/ArduTester-Bluetooth/assets/6597160/3c8e8f49-0d13-44f3-9b88-8f3494d18482) ![image](https://github.com/julijanz/ArduTester-Bluetooth/assets/6597160/e1211343-e202-4066-a039-44ce49470521)
 
+**Moj ArduTester**
 
+![image](https://github.com/julijanz/ArduTester-Bluetooth/assets/6597160/15d110c1-d27b-4ed1-9a82-a8fbeb36c794)
 
 
 
