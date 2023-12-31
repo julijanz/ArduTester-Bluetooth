@@ -81,105 +81,129 @@
             android:background="@color/gray"
             android:layout_height="2dp"/>
 
-        <TextView
-            android:id="@+id/pin1"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:gravity="center"
-            android:textSize="40sp"
-            android:layout_marginStart="30dp"
-            android:textColor="@color/black"
-            android:background="@color/color_pin1"
-            android:textStyle="bold"
-            android:layout_below="@+id/vLine1"
-            android:text="1" />
-        <TextView
-            android:id="@+id/pin2"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:textSize="40sp"
-            android:gravity="center"
-            android:layout_marginStart="30dp"
-            android:textColor="@color/black"
-            android:background="@color/color_pin2"
-            android:textStyle="bold"
-            android:layout_below="@+id/pin1"
-            android:text="2" />
-        <TextView
-            android:id="@+id/pin3"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:textSize="40sp"
-            android:gravity="center"
-            android:layout_marginStart="30dp"
-            android:textColor="@color/black"
-            android:background="@color/color_pin3"
-            android:textStyle="bold"
-            android:layout_below="@+id/pin2"
-            android:text="3" />
-
-        <com.jz.ardutester.utils.CircularProgressView
-            android:id="@+id/cpv"
-            android:layout_below="@+id/vLine1"
-            android:layout_width="248dp"
-            android:layout_height="146dp"
-            android:layout_toEndOf="@+id/pin1"
-            android:layout_toStartOf="@+id/pin4"
-            android:layout_margin="24dp"
-            app:borderWidth="18dp"
-            app:colorSequence="@array/color_sequence"          />
-
-        <ImageView
-            android:id="@+id/iv_component"
-            android:layout_below="@+id/vLine1"
+        <RelativeLayout
+            android:id="@+id/rlLeft"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@+id/pin1"
-            android:layout_toStartOf="@+id/pin4"
-            app:srcCompat="@drawable/el_unknown"
-            android:visibility="invisible"/>
+            android:layout_alignStart="@id/vLine1"
+            android:layout_toStartOf="@id/rlMiddle"
+            android:layout_below="@+id/vLine1">
 
-        <TextView
-            android:id="@+id/pin4"
-            android:layout_width="50dp"
+            <TextView
+                android:id="@+id/pin1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="1dp"
+
+                android:background="@color/color_pin1"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/pin2"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:layout_marginEnd="1dp"
+                android:textColor="@color/black"
+                android:background="@color/color_pin2"
+                android:textStyle="bold"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/pin1"
+                android:text="2" />
+            <TextView
+                android:id="@+id/pin3"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:layout_marginEnd="1dp"
+                android:textColor="@color/black"
+                android:background="@color/color_pin3"
+                android:layout_alignParentEnd="true"
+                android:textStyle="bold"
+                android:layout_below="@+id/pin2"
+                android:text="3" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlMiddle"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:textSize="40sp"
-            android:layout_marginEnd="30dp"
-            android:gravity="center"
-            android:background="@color/color_pin4"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:layout_below="@+id/vLine1"
-            android:layout_alignEnd="@+id/vLine1"
-            android:text="4" />
-        <TextView
-            android:id="@+id/pin5"
-            android:layout_width="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/vLine1">
+
+            <com.jz.ardutester.utils.CircularProgressView
+                android:id="@+id/cpv"
+                android:layout_width="144dp"
+                android:layout_height="144dp"
+                android:layout_margin="18dp"
+                android:layout_centerHorizontal="true"
+                app:borderWidth="18dp"
+                app:colorSequence="@array/color_sequence" />
+
+            <ImageView
+                android:id="@+id/iv_component"
+                android:layout_width="248dp"
+                android:layout_height="180dp"
+
+                app:srcCompat="@drawable/el_unknown" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlRight"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="40sp"
-            android:layout_marginEnd="30dp"
-            android:gravity="center"
-            android:background="@color/color_pin5"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:layout_below="@+id/pin4"
+            android:layout_toEndOf="@id/rlMiddle"
             android:layout_alignEnd="@+id/vLine1"
-            android:text="5" />
-        <TextView
-            android:id="@+id/pin6"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:textSize="40sp"
-            android:layout_marginEnd="30dp"
-            android:gravity="center"
-            android:background="@color/color_pin6"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:layout_below="@+id/pin5"
-            android:layout_alignEnd="@+id/vLine1"
-            android:text="6" />
+            android:layout_below="@+id/vLine1">
+            <TextView
+                android:id="@+id/pin4"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:textSize="40sp"
+                android:layout_marginStart="1dp"
+                android:gravity="center"
+                android:background="@color/color_pin4"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="4" />
+            <TextView
+                android:id="@+id/pin5"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:layout_marginStart="1dp"
+                android:gravity="center"
+                android:background="@color/color_pin5"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/pin4"
+                android:layout_alignEnd="@+id/vLine1"
+                android:text="5" />
+            <TextView
+                android:id="@+id/pin6"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:layout_marginStart="1dp"
+                android:gravity="center"
+                android:background="@color/color_pin6"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/pin5"
+                android:layout_alignEnd="@+id/vLine1"
+                android:text="6" />
+
+        </RelativeLayout>
 
         <TextView
             android:layout_width="match_parent"
@@ -190,7 +214,7 @@
             android:padding="2dp"
             android:background="?attr/colorPrimary"
             android:textStyle="bold"
-            android:layout_below="@id/iv_component"
+            android:layout_below="@id/rlMiddle"
             android:text="@string/str_received_data" />
 
     </RelativeLayout>
