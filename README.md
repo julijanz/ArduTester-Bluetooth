@@ -10,6 +10,8 @@ There are several different examples of ArduTester code posted on the internet. 
 
 1. On the Arduino Nano, you need to remove the resistor on pin 13. If pin 13 is connected to ground via a resistor and a diode, the ArduTester measurements are incorrect.
 
+![image](https://github.com/julijanz/ArduTester-Bluetooth/assets/6597160/253d6ffe-173e-4d25-a1e5-2c1b30bacdec)
+
 2. Open ArduTester104005.ino in Arduino IDE. Then upload the Sketch to the Arduino Nano when it is not connected to the HC-05.
 
 3. After uploading the sketch, you can connect the HC-05 and other components to the Arduino Nano or insert it on your development board or circuit board.
@@ -25,3 +27,14 @@ There are several different examples of ArduTester code posted on the internet. 
 8. Calibrate the ArduTester: Connect all three probe pins together and press the button. ArduTester will print "Selftest mode..." When it prints "isolate Probe!" remove the pin connections. When it says " >100nF!", connect a capacitor larger than 100nF (I use 1uF) to pin 1 and pin 3. When the calibration is finished, it will say "Test End".
 
 9. That's it. **Enjoy**.
+
+![image](https://github.com/julijanz/ArduTester-Bluetooth/assets/6597160/edab195b-3023-4262-af17-3f18f76e8d73) ![image](https://github.com/julijanz/ArduTester-Bluetooth/assets/6597160/e08ef204-2a46-49b2-a2e7-228f42db15ce) ![image](https://github.com/julijanz/ArduTester-Bluetooth/assets/6597160/20c00864-d03d-492d-b8ba-7c2785cb8307)
+
+![image](https://github.com/julijanz/ArduTester-Bluetooth/assets/6597160/0df5a1f4-7a0e-4944-a5da-55d3d7536e6c) ![image](https://github.com/julijanz/ArduTester-Bluetooth/assets/6597160/3c8e8f49-0d13-44f3-9b88-8f3494d18482) ![image](https://github.com/julijanz/ArduTester-Bluetooth/assets/6597160/e1211343-e202-4066-a039-44ce49470521)
+
+
+
+
+
+
+
