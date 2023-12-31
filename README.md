@@ -34,7 +34,7 @@ There are several different examples of ArduTester code posted on the internet. 
 
 ![image](https://github.com/julijanz/ArduTester-Bluetooth/assets/6597160/0df5a1f4-7a0e-4944-a5da-55d3d7536e6c) ![image](https://github.com/julijanz/ArduTester-Bluetooth/assets/6597160/3c8e8f49-0d13-44f3-9b88-8f3494d18482) ![image](https://github.com/julijanz/ArduTester-Bluetooth/assets/6597160/e1211343-e202-4066-a039-44ce49470521)
 
-**Moj ArduTester**
+**My ArduTester**
 
 ![image](https://github.com/julijanz/ArduTester-Bluetooth/assets/6597160/15d110c1-d27b-4ed1-9a82-a8fbeb36c794)
 
